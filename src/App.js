@@ -1,4 +1,5 @@
 import "./styles.css";
+import ColorSchemesExample from "./components/ColorSchemesExample";
 import { useEffect, useState } from "react";
 import User from "./components/User/User";
 //import { Swiper } from "react-id-swiper";
@@ -92,7 +93,7 @@ export default function App() {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": `*`,
       "x-access-token": apiKey,
-      search: "Bit"
+      search: "Bit",
     });
 
     await fetch(`${corsAnywhere}${url}`)
@@ -191,6 +192,8 @@ export default function App() {
 
   return (
     <div className="App">
+      <ColorSchemesExample />
+
       <div>
         <div className="Header justifyCenter">
           <Header />
@@ -214,7 +217,7 @@ export default function App() {
                 solIcon,
                 dogeIcon,
                 dotIcon,
-                daiIcon
+                daiIcon,
               ]}
               obj={currencies}
             />
@@ -249,7 +252,7 @@ export default function App() {
                 dotsPrice,
                 maticsPrice,
                 daisPrice,
-                btcIcon
+                btcIcon,
               ]}
               function={getData}
             />
@@ -290,7 +293,7 @@ export default function App() {
                 dogeIcon,
                 dotIcon,
                 daiIcon,
-                dataMessari
+                dataMessari,
               ]}
               obj={currencies}
             />
