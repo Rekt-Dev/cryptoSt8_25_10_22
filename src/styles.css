@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font-weight: 500;
-  display: flex;
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(30, 30, 30);
   font-smooth: always;
