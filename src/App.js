@@ -19,6 +19,8 @@ import { WinLose } from "./components/WinLose";
 import { Liquidations } from "./components/Liquidations";
 import { Header } from "./components/Header.jsx";
 import { MarketData } from "./components/MarketData";
+import { Accordion } from "react-bootstrap";
+import BasicExample from "./components/BootStrap/Acordion";
 //import { getData } from "./services/getData.jsx";
 //import {consoleLog} from "./components/Tickers"
 //import {query} from "./services/fetch"
@@ -230,6 +232,9 @@ export default function App() {
           onClick={() => console.log("i was clicked ticker names")}
           className="tickerNames"
         ></div>
+        <div>
+          <BasicExample />
+        </div>
         <div id="wrapper-column" className="flexRow">
           <div className="flexColumn justifyCenter">
             <User />
