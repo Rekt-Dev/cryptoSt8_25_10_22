@@ -232,9 +232,7 @@ export default function App() {
           onClick={() => console.log("i was clicked ticker names")}
           className="tickerNames"
         ></div>
-        <div className="Acordion">
-          <BasicExample />
-        </div>
+        <div className="Acordion"></div>
         <div id="wrapper-column" className="flexRow">
           <div className="flexColumn justifyCenter">
             <User />
@@ -245,6 +243,8 @@ export default function App() {
             onClick={() => console.log("i was clicked basic charts")}
             className="Charts flexRow"
           >
+            <BasicExample />
+
             <BasicCharts
               coins={[
                 btcsPrice,
