@@ -24,7 +24,9 @@
 .formField {
   padding: 0.5rem;
 }
-
+.Acordion {
+  width: 35rem;
+}
 .formFieldError {
   border: 1px solid #e11d48;
 }
