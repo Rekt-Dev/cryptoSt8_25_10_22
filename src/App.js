@@ -232,7 +232,7 @@ export default function App() {
           onClick={() => console.log("i was clicked ticker names")}
           className="tickerNames"
         ></div>
-        <div>
+        <div className="Acordion">
           <BasicExample />
         </div>
         <div id="wrapper-column" className="flexRow">
