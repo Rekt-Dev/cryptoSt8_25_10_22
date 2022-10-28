@@ -1,6 +1,7 @@
 import "./styles.css";
 import ColorSchemesExample from "./components/ColorSchemesExample";
 import { useEffect, useState } from "react";
+import CarouselFadeExample from "./components/BootStrap/CarouselFadeExample";
 import User from "./components/User/User";
 //import { Swiper } from "react-id-swiper";
 import { Tickers } from "./components/Tickers/Tickers.jsx";
@@ -305,6 +306,7 @@ export default function App() {
           </div>
         </div>
         <br />
+        <CarouselFadeExample />
       </div>
     </div>
   );
