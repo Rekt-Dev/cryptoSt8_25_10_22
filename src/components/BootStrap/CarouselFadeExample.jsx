@@ -6,7 +6,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src="https://i0.wp.com/blogs.cfainstitute.org/investor/files/2022/04/Crypto-Tokens-and-Crypto-Coins-What-Drives-Performance.png?fit=1200%2C697&ssl=1"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2021/11/pandasecurity-crypto-gaming.jpg"
           alt="Second slide"
         />
 
@@ -29,7 +29,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src="https://media.beam.usnews.com/db/ae/47d566714fd6b1143c313ba9a685/cryptocurrencycoinvariety.jpg"
           alt="Third slide"
         />
 
